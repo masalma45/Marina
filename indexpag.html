@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horror Games Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+            <nav class="navbar">
+                <div class="cart">
+                    <button id="cart-btn">
+                        🛒 Carrito
+                        <span id="cart-count">0</span>
+                    </button>
+                </div>
+                <h1 class="title">Horror Games</h1>
+            </nav>
+        </header>
+    
+        <section class="image-gallery">
+            <div class="image-item">
+                <img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co7p73.webp" alt="Until Dawn">
+                <h3>Until Dawn</h3>
+                <p>A survival horror adventure game where every decision you make has life or death consequences.</p>
+                <button class="add-to-cart" data-product="Until Dawn">Agregar al Carrito</button>
+            </div>
+            <div class="image-item"><img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co5wkr.webp"
+               alt="Silent Hill 2">
+              <h3>Silent Hill 2</h3>
+              <p>A psychological horror game that delves deep into the psyche of the protagonist.</p>
+               <button class="add-to-cart" data-product="Silent Hill 2">Agregar al Carrito</button>
+            </div>
+            <div class="image-item"><img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co1yat.webp"
+               alt="Outlast">
+               <h3>Outlast</h3>
+               <p>A first-person survival horror game set in a derelict psychiatric hospital.</p>
+               <button class="add-to-cart" data-product="Outlast">Agregar al Carrito</button>
+            </div>
+        </section>
+        <section class="image-gallery">
+             <div class="image-item"><img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co20x8.webp"
+              alt="Outlast II">
+              <h3>Outlast II</h3>
+              <p>A sequel to Outlast, offering a disturbing journey into the depths of the human mind and its dark
+              secrets.</p>
+            <button class="add-to-cart" data-product="Outlast II">Agregar al Carrito</button>
+            </div>
+            <div class="image-item"><img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co2zpu.webp"
+                alt="Resident Evil">
+                <h3>Resident Evil</h3>
+                <p>The classic survival horror game that started the Resident Evil series.</p>
+               <button class="add-to-cart" data-product="Resident Evil">Agregar al Carrito</button>
+            </div>
+            <div class="image-item"><img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co5zky.webp"
+                alt="Dead by Daylight">
+                <h3>Dead by Daylight</h3>
+                <p>An asymmetrical multiplayer horror game where one player takes on the role of the savage killer.</p>
+               <button class="add-to-cart" data-product="Dead by Daylight">Agregar al Carrito</button>
+        </div>
+        </section>
+    
+        <div id="cart-content" class="cart-dropdown">
+            <h2>Carrito de Compras</h2>
+            <ul id="cart-items">   
+         </ul>
+        </div>
+    </header>
+        
+        </section>
+        <section class="form-section">
+            <h2>Contact Us</h2>
+            <form id="contactForm"><label for="name">Name:</label><input type="text" id="name" name="name"
+                    required><label for="email">Email:</label><input type="email" id="email" name="email"
+                    required><label for="message">Message:</label><textarea id="message" name="message" rows="4"
+                    required></textarea><button type="submit">Submit</button></form>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
