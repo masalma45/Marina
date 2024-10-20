@@ -5,11 +5,9 @@
 }
 
 body {
-    background-color: #0a0909;
-    color: #c52525;
+    background-color: #0a0909; /* Color de fondo oscuro */
+    color: #ffffff; /* Color de texto más claro */
     font-family: 'Courier New', Courier, monospace;
-    margin: 0;
-    padding: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -29,6 +27,7 @@ h1 {
     font-size: 2.5rem;
     letter-spacing: 5px;
     text-shadow: 3px 3px 5px #111010;
+    color: #ffcc00; /* Cambiado a un color más claro para mayor contraste */
 }
 
 .navbar {
@@ -48,7 +47,7 @@ h1 {
 
 #cart-btn {
     background-color: #444;
-    color: red;
+    color: white; /* Color de texto en el botón */
     border: none;
     padding: 10px 20px;
     cursor: pointer;
@@ -62,6 +61,7 @@ h1 {
 .title {
     text-align: center;
     font-size: 24px;
+    color: #ffcc00; /* Mayor contraste en el título */
 }
 
 #cart-content {
@@ -116,6 +116,7 @@ main {
 
 .image-item img {
     width: 100%;
+    height: auto; /* Mantener la relación de aspecto */
     border-radius: 10px;
     border: 2px solid #444;
     box-shadow: 0 0 15px #ff0000;
@@ -128,7 +129,7 @@ main {
 
 .image-item h3 {
     margin: 10px 0 5px;
-    color: red;
+    color: #ffcc00; /* Color más claro para mayor contraste */
 }
 
 .image-item p {
@@ -138,7 +139,7 @@ main {
 
 .add-to-cart {
     background-color: #444;
-    color: red;
+    color: white; /* Color de texto en botón */
     border: none;
     padding: 10px;
     cursor: pointer;
@@ -181,7 +182,7 @@ form {
 
 label {
     margin-bottom: 5px;
-    color: red;
+    color: #ffcc00; /* Mayor contraste */
 }
 
 input, textarea, button {
